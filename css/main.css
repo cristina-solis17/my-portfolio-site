@@ -1,15 +1,20 @@
 /***** BASE STYLES *****/
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab';
 }
-#top-section {
-	height: 700px;
-	margin: 0 auto;
+header {
+  height: 150px;
+  overflow: auto;
+  background-color: #095156; 
+}
+#Hero {
+	height: 730px;
+	overflow: auto;
 }
 #Services {
-	height: 850px;
+	height: 1000px;
 	overflow: auto;
-	background-color: #CDD2D3;
+	background-color: #ffffff;
 }
 #About {
 	height: 650px;
@@ -35,53 +40,128 @@ body {
 	width: 400px;
 	float: left;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-}
-
 /***** HEADER *****/
-header {
-	height:110px;
-}
-header h1 {
-	font-size: 30px;
-	color: #095156;
-	padding: 65px 0 65px 25px;
+header img {
 	float: left;
+	padding-top: 25px;
+	padding-left: 50px;
 }
-nav {
-    float: right;
-    padding: 75px 25px;
+header nav {
+	font-family: 'Roboto';
+	float: right;
 }
-nav ul li {
+header nav ul li {
     display: inline-block;
+	padding-right: 50px;
+	padding-top: 50px;
 }
-
-/***** Top-Section *****/
-#top-section {
-	background: url("../img/hero-image.png");
-	background-size: cover
+header nav a {
+	color:#BBDF09;
 }
-#top-section h2 {
-	color: #BDBF09;
-	font-size: 60px;
-	text-align: center
+/***** Hero*****/
+#Hero {
+	background: url("../img/hero-image-4.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin: 0px;
+	overflow: hidden;
 }
-#top-section p {
-	color: #087E8B;
-	font-size: 48px;
-	text-align: center;
+#Hero h2 {
+	margin: 0px 0px 0px 0px; 
+	color: #BBDF09;
+	font-size: 70px;
+	text-align: left;
+	padding-top: 445px;
+	padding-left: 673px;
+}
+#Hero p {
+	margin: 20px 0px 0px 0px; 
+	font-family: 'Roboto';
+	color: #ffffff;
+	padding-left: 670px;
+	font-size: 58px;
 }
 
 /***** Services *****/
 #Services .half-width {
-	height: 250px;
+	height: 350px;
+	padding-bottom: 30px;
 }
 #Services h4 {
 	color: #095156;
-	font-size: 36;
+	font-size: 36px;
+	text-align: center; 
+	padding-top: 20px;
+}
+#Services h5 {
+	color: #095156;
+	font-size: 24px;
+	margin-top: 0px;
+}
+#Services p {
+	color: #095156;
+	font-family: 'Roboto';
+	font-size: 22px;
+}
+ul#content li {
+	list-style: disc;
+	color: #095156;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+#Services img {
+	padding-top: 6px; 
+}
+/***** About *****/
+#About .half-width {
+	height: 250px;
+}
+#About h4 {
+	color: #FFFFFF;
+	font-size: 36px;
 	text-align: center;
 }
+#About p {
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 26px;
+}
+#About img {
+	padding-top: 27px;
+}
+/***** Contact *****/
+ul#social li {
+  display:inline;
+  list-style-type: none;
+  padding-right: 10px;
+  padding-left: 33px;	
+}
+#Contact h4 {
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+}
+#Contact h5 {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Roboto';	
+}
+#Contact p {
+  font-family: 'Roboto';
+  color: #FFFFFF;
+  font-size: 22px;
+  text-align: center;	
+}
+#Contact img {
+	width: 50px;
+}
+/***** Footer *****/
+footer {
+  overflow: hidden;
+  background-color: #095156;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Roboto';	
+  }
